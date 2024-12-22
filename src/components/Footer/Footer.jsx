@@ -24,9 +24,14 @@ function Footer() {
                                         Home
                                     </Link>
                                 </li>
-                                <li>
+                                <li className="mb-4">
                                     <Link to="/about" className="hover:underline hover:text-orange-500">
                                         About
+                                    </Link>
+                                </li>
+                                <li className="mb-4">
+                                    <Link to="/contact" className="hover:underline hover:text-orange-500">
+                                        Contact
                                     </Link>
                                 </li>
                             </ul>
